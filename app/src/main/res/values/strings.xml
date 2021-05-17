@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PTAP V2</string>
+
+    <string name="next">ถัดไป</string>
+    <string name="skip">ข้าม</string>
+    <string name="start">เริ่มใช้งาน</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_calendar_test">NewCalendarTest</string>
+
+    <!-- Welcome PAGE -->
+    <string name="slide_1_title">Easy Calendar</string>
+    <string name="slide_1_desc">มีรูปแบบการแสดงแบบปฏิทินที่ทำให้เข้าใจง่าย บอกลาการจดในกระดาษ</string>
+
+    <string name="slide_2_title">Pregnancy Mode</string>
+    <string name="slide_2_desc">โหมดการตั้งครรภ์เข้าถึงคำแนะนำ เพื่อการเจริญเติบโตที่ดีที่สุดสำหรับทารกในครรภ์</string>
+
+    <string name="slide_3_title">Emergency</string>
+    <string name="slide_3_desc">สำหรับสถาณการณ์ที่ไม่คาดคิด แค่เปิดเมนูเพื่อรับคำแนะนำหรือโทรออกเบอร์ที่บันทึก</string>
+
+    <string name="slide_4_title">News</string>
+    <string name="slide_4_desc">ข่าวสารครบรูปแบบด้านสุขภาพของสาวสมัยใหม่</string>
+
+    <!-- Goal Page -->
+    <string name="title_goal">PTAP ยินดีต้อนรับ</string>
+    <string name="title_goal2">เราสามารถทำได้หลายอย่าง เลือกวัตถุประสงค์ของคุณ</string>
+    <string name="goal1">ติดตามประจำเดือนของฉัน</string>
+    <string name="goal2">ฉันต้องการจะตั้งครรภ์   </string>
+    <string name="goal3">ฉันกำลังตั้งครรภ์   </string>
+    <string name="agree_goal">ถ้าคุณดำเนินการต่อ คุณยอมรับขอตกลง </string>
+    <string name="agree_goa2">the <a href="">Privacy Policy</a> และ  <a href="">Terms of Services</a></string>
+
+    <!--All about health -->
+    <string name="health_title">ยินดีต้อนรับ</string>
+    <string name="health_desc">เราต้องการข้อมูลของคุณเพื่อสร้างไอดีทางการแพทย์ </string>
+    <string name="health_button">สร้างไอดีทางการแพทย์</string>
+
+
+</resources>

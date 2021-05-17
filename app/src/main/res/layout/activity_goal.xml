@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.Goal">
+
+
+    <TextView
+        android:id="@+id/font"
+        android:fontFamily="@font/ekkamai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/title_goal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView2"
+        android:fontFamily="@font/mitr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/font"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/title_goal2" />
+
+    <Button
+        android:id="@+id/btn_goal1"
+        android:text="@string/goal1"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/mitr"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        app:layout_widthPercent="85%"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@id/textView2"
+        app:layout_marginTopPercent="5%"
+        />
+
+    <Button
+        android:id="@+id/btn_goal2"
+        android:fontFamily="@font/mitr"
+        app:layout_widthPercent="85%"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_goal1"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="5%"
+        android:background="@drawable/buttonshape"
+        android:text="@string/goal2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_goal3"
+        android:fontFamily="@font/mitr"
+        app:layout_widthPercent="85%"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_goal2"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="5%"
+        android:background="@drawable/buttonshape"
+        android:text="@string/goal3"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/agree_goal"
+        android:fontFamily="@font/mitr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_goal3"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="5%"
+        android:text="@string/agree_goal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/agree_goal2"
+        android:fontFamily="@font/mitr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agree_goal"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="5%"
+        android:text="@string/agree_goa2" />
+
+
+</android.support.percent.PercentRelativeLayout>

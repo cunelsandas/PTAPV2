@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.l2everseflash.ptapv2.fragment.CalendarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.l2everseflash.ptapv2.calendar.MFCalendarView
+        android:id="@+id/mFCalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mFCalendarView"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/periodColor"
+            android:gravity="center"
+            android:text="ประจำเดือน"
+            android:fontFamily="@font/mitr"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/fertileColor"
+            android:gravity="center"
+            android:text="มีโอกาสตั้งครรภ์"
+            android:fontFamily="@font/mitr"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/ovulationColor"
+            android:gravity="center"
+            android:text="โอกาสตั้งครรภ์สูง"
+            android:fontFamily="@font/mitr"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

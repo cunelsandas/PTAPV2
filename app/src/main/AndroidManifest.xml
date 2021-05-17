@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.l2everseflash.ptapv2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".fontformat"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.Goal"/>
+        <activity android:name=".activity.Information" />
+        <activity android:name=".activity.CalendarTest" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.NotesDiaryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.PregnancyCalculator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DueDateActivity" />
+
+        <receiver
+            android:name=".notification.NotificationReciever"
+            android:process=":remote" />
+
+        <activity
+            android:name=".activity.NewCalendarTest"
+            android:label="@string/title_activity_new_calendar_test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ActivityOne" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".activity.ActivityTwo" />
+        <activity android:name=".activity.ActivityThree" />
+        <activity android:name=".activity.ActivityFour" />
+        <activity android:name=".activity.Welcome_Health" />
+        <activity android:name=".activity.medical_id"/>
+    </application>
+
+</manifest>
